@@ -31,13 +31,18 @@ body {
   gap: 15px;
 }
 
-.card_close {
+.card_close button {
   position: absolute;
   top: 25px;
   right: 25px;
   font-size: 25px;
   color: #13141586;
   font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 1px 10px 1px 10px;
+  background-color: transparent;
 }
 
 .card_img {
